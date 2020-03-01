@@ -1,0 +1,15 @@
+# TwoDListPractice
+
+WIDTH = 64
+HEIGHT = 32
+
+myGrid = []
+
+
+for x in range(WIDTH):
+    column = []
+    for y in range(HEIGHT):
+        column.append('#')
+    myGrid.append('column')
+
+print('myGrid')

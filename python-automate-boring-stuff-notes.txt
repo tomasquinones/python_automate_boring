@@ -1,0 +1,20 @@
+Python Automate the Boring Stuff
+
+
+Boolean Values
+    True or False
+
+
+Comparison Operators:
+    == Equal to
+    != Not equal to
+    < Less than
+    > Greater than
+    <= Less than or equal to
+    >= Greater than or equal to
+
+
+break - exits a loop
+
+continue - goes back to the beginning of a loop
+
