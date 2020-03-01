@@ -18,3 +18,22 @@ break - exits a loop
 
 continue - goes back to the beginning of a loop
 
+
+Useful String Methods
+upper()
+lower()
+isupper()
+islower()
+strip()
+lstrip()
+rstrip()
+endswith()
+startswith()
+isalpha()
+isalnum()
+isdecimal()
+isspace()
+istitle()
+join()
+split()
+partition()
