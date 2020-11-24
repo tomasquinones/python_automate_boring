@@ -1,5 +1,5 @@
 # Chapter 16 - Fetching Current Weather Data
-# getOpenWeather.py - Prints the weather for a location from the command line. 
+# getOpenWeather.py - Prints the weather for a location from the command line.
 
 
 import json, requests, sys
@@ -7,7 +7,7 @@ import json, requests, sys
 APPID = '159a3517f4e1564d5f76e7ac5f7b5e5d'
 
 # Computer location from command line arguments.
-if len(sys.argv) < 2: 
+if len(sys.argv) < 2:
     print('Usage: getOpenWeather.py city_name, 2-letter_country_code')
     sys.exit()
 location = ' '.join(sys.argv[1:])
@@ -23,7 +23,7 @@ response.raise_for_status()
 print(response.text)
 
 
-# Load JSON data into a Python Variable. 
+# Load JSON data into a Python Variable.
 weatherData = json.loads(response.text)
 
     # Print weather descriptions.

@@ -1,9 +1,12 @@
 # Hello.py is a test of comparisons and flow control
 
-name = 'Mary'
+name = ''
 password = 'swordfish'
 
-enterPassword = input('Enter your password')
+
+enterName = input('Enter Your Name. (Hint: Mary) ')
+enterPassword = input('Enter your password ')
+
 
 if name == 'Mary':
     print('Hello, Mary')
@@ -11,4 +14,5 @@ if name == 'Mary':
         print('Access Granted')
     else:
         print('Access Denied')
-
+else:
+    print("I don't know this name, security notified.")
